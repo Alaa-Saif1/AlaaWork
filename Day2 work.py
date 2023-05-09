@@ -37,4 +37,4 @@ volume = pi * r**2 *h
 print(volume)
 
 Area = (2 * pi * r**2) + (2 * pi * r * h)
-print(Area)
+print(format(Area, ".2f"))
