@@ -38,3 +38,21 @@ print(volume)
 
 Area = (2 * pi * r**2) + (2 * pi * r * h)
 print(format(Area, ".2f"))
+
+# idf someone bought 10 tons of iron where the value of one ton is one rial.write a program that calculate 
+# the total cost of purchase with an addition of 5% var.
+a = 10
+b = 1
+
+res1 = a * b
+print(res1)
+
+addition = 5/100
+
+res2 = res1 * addition
+print(res2)
+
+finall_cost = res1 + res2
+print(finall_cost)
+
+
