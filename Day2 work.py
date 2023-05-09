@@ -27,6 +27,14 @@ x = 434.99999
 x = int(x * 100) / 100.0
 print(x)
 
-x = a
-ord('a')
-print(char)
+
+# python program to calculate the total surface volume and area of a cylinder:
+h = 4
+r = 6
+pi = 3.14
+
+volume = pi * r**2 *h
+print(volume)
+
+Area = (2 * pi * r**2) + (2 * pi * r * h)
+print(Area)
