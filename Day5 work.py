@@ -21,7 +21,7 @@ else:
     
 # write a python program where the ser enters a password and check if the password is vaild or not:
 
-string = input("Enter password here: ")
+"""string = input("Enter password here: ")
 l = 0
 u = 0
 n = 0
@@ -30,18 +30,18 @@ s = 0
 if len(string) >= 8:
     for position in string:
         if position.islower():
-            l = l + 1
+            l+= 1
         if position.isupper():
-            u = u + 1
+            u+= 1
         if position.isdigit():
-            n = n + 1
+            n+= 1
         if (position in '@$#_'):
-            s = s + 1
+            s+= 1
         
-if (l >= 1 and u >= 1 and n >= 1 and s >= 1 and 1+u+n+s == len(string)):
+if (l >= 1 and u >= 1 and n >= 1 and s >= 1 and l+u+n+s == len(string)):
     print("The Password is vaild")
 else:
-    print("The Password is invalid")
+    print("The Password is invalid")"""
             
 # check random():
 
@@ -80,8 +80,6 @@ while not n:
         if(i == 6):
             print("go out of loop")
             break"""
-
-#
             
         
         
