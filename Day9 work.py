@@ -100,7 +100,7 @@ inputFile.close()"""
 
 # Q5:
 
-inputFile = open("q4.txt", "r")
+"""inputFile = open("q4.txt", "r")
 
 hcf = []
 
@@ -114,7 +114,7 @@ for line in inputFile:
         return(hcf)
     print(hcf)
         
-inputFile.close()
+inputFile.close()"""
 
 
 
