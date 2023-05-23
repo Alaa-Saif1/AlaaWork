@@ -241,15 +241,14 @@ print("Customer Details: ")
 ac1.print_customer_details()
 ac2.print_customer_details()
 ac3.print_customer_details()
-ac4.print_customer_details()"""
+ac4.print_customer_details()
 
 
 ac2.deposit(1000)
 ac2.check_balance()
 ac1.withsdrow(5000)
 ac3.withsdrow(3400)
-ac3.check_balance()
-
+ac3.check_balance()"""
 
 
 
